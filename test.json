@@ -6,6 +6,20 @@
 			"keycount": "12K",
 			"icon":"21kid",
 			"iconurl":"https://cdn.discordapp.com/attachments/450094294506799106/958908962248470568/21kid.png"
+		},
+		{
+			"name":"Glitcher",
+			"url":"https://sprend.com/d?C=a0e7ea21ce7f44e593caaa8e7274a6ca",
+			"keycount": "9K",
+			"icon":"hex",
+			"iconurl":"https://cdn.discordapp.com/attachments/450094294506799106/964424685142032464/hex.png"
+		},
+		{
+			"name":"Nonsense",
+			"url":"https://sprend.com/d?C=a0e7ea21ce7f44e593caaa8e7274a6ca",
+			"keycount": "13K",
+			"icon":"nonsense",
+			"iconurl":"https://cdn.discordapp.com/attachments/450094294506799106/964424970597961798/nonsense.png"
 		}
 	]
 }
