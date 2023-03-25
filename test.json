@@ -1,25 +1,9 @@
 {
-	"charts":[
+	"scripts":[
 		{
-			"name":"Judgement",
-			"url":"https://github.com/anthonyjrvill/testing/blob/main/Judgement.zip",
-			"keycount": "12K",
-			"icon":"21kid"
-		},
-		{
-			"name":"Glitcher",
-			"url":"https://sprend.com/d?C=a0e7ea21ce7f44e593caaa8e7274a6ca",
-			"keycount": "9K",
-			"icon":"hex"
-		},
-		{
-			"name":"Nonsense",
-			"url":"https://sprend.com/d?C=a0e7ea21ce7f44e593caaa8e7274a6ca",
-			"keycount": "13K",
-			"icon":"nonsense"
+			"url":"https://raw.githubusercontent.com/anthonyjrvill/testing/main/testy.hscript",
+			"version": "1.0"
 		}
-	],
-	"iconlink": "https://cdn.discordapp.com/attachments/450094294506799106/964666992621674516/icons.zip",
-	"iconver": "1.0"
+	]
 }
  
