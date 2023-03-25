@@ -3,5 +3,14 @@ var borderStyle = Type.resolveEnum('flixel.text.FlxTextBorderStyle');
 var CoolUtil = Type.resolveClass('CoolUtil');
 
 function addUI(ps){
-   trace('IT WORKS :D');
+   timeTxt = new FlxText(0, 19, 400, "Nothing rn :P", 32);
+   timeTxt.setFormat(CoolUtil.font, 32, BRcolor.WHITE, "center", null, BRcolor.BLACK);
+   timeTxt.scrollFactor.set();
+   timeTxt.borderColor = BRcolor.BLACK;
+   timeTxt.borderSize = 2;
+   timeTxt.cameras = [ps.camHUD];
+   timeTxt.borderStyle = borderStyle.OUTLINE;
+   timeTxt.screenCenter();
+
+   ps.add(timeTxt);
 }
