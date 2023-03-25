@@ -8,8 +8,9 @@ function addUI(ps){
    timeTxt.scrollFactor.set();
    timeTxt.borderColor = BRcolor.BLACK;
    timeTxt.borderSize = 2;
+   timeTxt.cameras = [ps.camHUD];
    timeTxt.borderStyle = borderStyle.OUTLINE;
-   timeTxt.screenCenter(FlxAxes.X);
+   timeTxt.screenCenter();
 
    ps.add(timeTxt);
 }
