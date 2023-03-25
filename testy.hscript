@@ -3,7 +3,7 @@ var borderStyle = Type.resolveEnum('flixel.text.FlxTextBorderStyle');
 var CoolUtil = Type.resolveClass('CoolUtil');
 
 function addUI(ps){
-   timeTxt = new FlxText(0, 19, 400, "hello monkey boi", 32);
+   timeTxt = new FlxText(0, 19, 400, "woh", 32);
    timeTxt.setFormat(CoolUtil.font, 32, BRcolor.WHITE, "center", null, BRcolor.BLACK);
    timeTxt.scrollFactor.set();
    timeTxt.borderColor = BRcolor.BLACK;
@@ -13,4 +13,7 @@ function addUI(ps){
    timeTxt.screenCenter();
 
    ps.add(timeTxt);
+
+   ps.camHUD.scaleX = 0.8;
+   ps.camHUD.scaleY = 0.8;
 }
