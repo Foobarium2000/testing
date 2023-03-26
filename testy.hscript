@@ -20,4 +20,8 @@ function update(ps,elapsed) {
     float += 0.02;
     timeTxt.y += Math.sin(2*float)/2;
     timeTxt.x += Math.cos(float);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 560384abea54758d7116eeb09fc607364066acf1
