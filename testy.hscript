@@ -1,9 +1,10 @@
 var timeTxt:FlxText;
 var borderStyle = Type.resolveEnum('flixel.text.FlxTextBorderStyle');
 var CoolUtil = Type.resolveClass('CoolUtil');
+var float = 0;
 
 function addUI(ps){
-   timeTxt = new FlxText(0, 19, 400, "its.. empty", 32);
+   timeTxt = new FlxText(0, 19, 400, "quit gokin around :]", 32);
    timeTxt.setFormat(CoolUtil.font, 32, BRcolor.WHITE, "center", null, BRcolor.BLACK);
    timeTxt.scrollFactor.set();
    timeTxt.borderColor = BRcolor.BLACK;
@@ -13,4 +14,10 @@ function addUI(ps){
    timeTxt.screenCenter();
 
    ps.add(timeTxt);
+}
+
+function update(ps,elapsed) {
+    float += 0.02;
+    timeTxt.y += Math.sin(2*float)/2;
+    timeTxt.x += Math.cos(float);
 }
